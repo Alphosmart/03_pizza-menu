@@ -51,8 +51,6 @@ function App() {
     <div>
       <h1>Hello React!</h1>
       <Pizza />
-      <Pizza />
-      <Pizza />
     </div>
   );
 }
