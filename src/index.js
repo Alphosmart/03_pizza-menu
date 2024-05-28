@@ -74,7 +74,7 @@ function Menu() {
       <h2>Our Menu</h2>
       <Pizza
         name="Pizza Spinaci"
-        ingredients="Tmato, mozarella, spinach, and ricotta cheese"
+        ingredients="Tomato, mozarella, spinach, and ricotta cheese"
         photoName="pizzas/spinaci.jpg"
         price={10}
       />
