@@ -106,7 +106,7 @@ function Pizza({ pizzaObj }) {
   console.log(pizzaObj);
   // if (pizzaObj.soldOut) return null;
   return (
-    <li className={`pizza ${pizzaObj.soldOut ? "sold-out" : ""}`}>
+    <li className= >
       <img src={pizzaObj.photoName} alt={pizzaObj.name} />
       <div>
         <h3>{pizzaObj.name}</h3>
@@ -126,7 +126,7 @@ function Pizza({ pizzaObj }) {
 function Footer() {
   const hour = new Date().getHours();
   const openHour = 12;
-  const closeHour = 2;
+  const closeHour = 24;
   const isOpen = hour >= openHour && hour <= closeHour;
   console.log(isOpen);
   // if (hour >= openHour && hour <= closeHour) alert("We're currently open!");
